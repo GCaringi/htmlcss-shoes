@@ -1,5 +1,5 @@
 /*-----------
-    Reset    
+    Reset
 -----------*/
 
 *{
@@ -8,3 +8,44 @@
     box-sizing: border-box;
 }
 
+/*-------------
+    Debug Zone 
+---------------*/
+
+header{
+    min-height: 100px;
+    background-color: red;
+}
+/*-------------
+    Debug Zone 
+---------------*/
+
+
+
+nav{
+    float: right
+}
+
+nav::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a{
+    display: inline-block;
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
+    margin: 40px 40px;
+}
