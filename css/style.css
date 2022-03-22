@@ -12,15 +12,22 @@
     Debug Zone 
 ---------------*/
 
-header{
-    min-height: 100px;
-    background-color: red;
-}
 /*-------------
     Debug Zone 
 ---------------*/
 
 
+/*------------- 
+    Navbar
+---------------*/
+
+.container{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
 
 nav{
     float: right
@@ -31,6 +38,7 @@ nav::after{
     display: table;
     clear: both;
 }
+
 
 nav ul li{
     display: inline-block;
@@ -49,3 +57,31 @@ nav ul li a{
     font-weight: bold;
     margin: 40px 40px;
 }
+
+/*------------- 
+    /Navbar
+---------------*/
+
+/*------------- 
+     Main
+---------------*/
+section{
+    height: 100vh;
+}
+
+#first-view{
+    background-color: #ff0000;
+}
+
+#second-view{
+    background-color: #008000;
+}
+
+#third-view{
+    background-color: #ffff00;
+}
+
+
+/*------------- 
+     /Main
+---------------*/
