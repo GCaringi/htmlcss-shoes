@@ -8,6 +8,10 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 /*-------------
     Debug Zone 
 ---------------*/
@@ -26,8 +30,6 @@
     z-index: 10;
     top: 0;
     right: 0;
-    left: 0;
-    bottom: 0;
 }
 
 nav{
@@ -93,6 +95,10 @@ section{
     text-transform: uppercase;
     font-size: 50px;
     font-weight: 900;
+}
+
+.fix-motto{
+    color: #008000;
 }
 /*------------- 
      /Main
