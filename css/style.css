@@ -28,19 +28,18 @@ html{
 /*------------- 
     Navbar
 ---------------*/
-
-/* .container{
+header{
     position: fixed;
     z-index: 10;
     top: 0;
     right: 0;
-} */
+}
 
 nav{
-    position: fixed;
+    /* position: fixed;
     z-index: 10;
     top: 0;
-    right: 0;
+    right: 0; */
     float: right
 }
 
@@ -79,6 +78,7 @@ nav ul li a{
 section{
     position: relative;
     height: 100vh;
+    color: #ffff00;
 }
 
 #first-view{
@@ -90,6 +90,7 @@ section{
 }
 
 #third-view{
+    color: #008000;
     background-color: #ffff00;
 }
 
@@ -98,15 +99,15 @@ section{
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    color: #ffff00;
     text-align: center;
     text-transform: uppercase;
     font-size: 40px;
 }
 
-.fix-motto{
-    color: #008000;
+.pic-box > img{
+    size: 650px;
 }
+
 /*------------- 
      /Main
 ---------------*/
